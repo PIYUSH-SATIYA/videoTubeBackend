@@ -1,0 +1,49 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+
+
+# Build output
+/dist/
+/build/
+
+# Temp files
+*.tmp
+*.temp
+
+# Public temp files
+public/temp/
+
+# Misc
+coverage/
+
+# Ignore test output
+*.test.js
+
+# Ignore editor folders
+.vscode/
+.idea/
+
+# Ignore system files
+*.swp
+*.swo
+
+# Ignore backup files
+*~
+
+# Ignore workspace temp files
+temp_testing.txt
+temp_todo.txt

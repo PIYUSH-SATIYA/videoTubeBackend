@@ -1,0 +1,31 @@
+{
+    "name": "vidtube",
+    "version": "1.0.0",
+    "description": "youtube inspired projcet trying to mimic it's basic functionality on backend",
+    "type": "module",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node src/index.js",
+        "dev": "node --env-file .env --env-file .env.sample --watch src/index.js"
+    },
+    "keywords": [
+        "nodeJS",
+        "mongoose",
+        "express",
+        "backend"
+    ],
+    "author": "Piyush-Satiya",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^6.0.0",
+        "cloudinary": "^2.6.1",
+        "cookie-parser": "^1.4.7",
+        "cors": "^2.8.5",
+        "dotenv": "^16.5.0",
+        "express": "^5.1.0",
+        "jsonwebtoken": "^9.0.2",
+        "mongoose": "^8.15.1",
+        "mongoose-aggregate-paginate-v2": "^1.1.4",
+        "multer": "^2.0.1"
+    }
+}
